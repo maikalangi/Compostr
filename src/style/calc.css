@@ -1,0 +1,102 @@
+div{
+  font-family: 'Inter', sans-serif;
+
+}
+.CompPic{
+    margin: 37px 39px 30px 39px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+    height: 334px;
+}
+.minus{
+    background-color: #44692B;
+    padding-top: 2px;
+    height: 30px;
+    width:32px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-align: center;
+    color:#FFFFFF;
+    font-size:22px;
+}
+.plus{
+    background-color: #44692B;
+    padding-top: 2px;
+    height: 30px;
+    width:32px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px;
+    color:#FFFFFF;
+    font-size:22px;
+
+}
+.counterCount{
+    margin: 0 auto;
+    padding-top: 0px;
+    border-radius: 5px;
+    width: 32px;
+    height: 30px;
+    border: 1px solid #efefef;
+    text-align: center;
+}
+.counter{
+    display: flex;
+
+    margin-right: 15px;
+}
+.compSmall{
+    margin:auto;
+    margin-bottom: 14px;
+    display: flex;
+    width: 334px;
+    border-radius: 8px;
+    height: 77px;
+    border: 1px solid #efefef;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 3px 5px 2px #efefef;
+    font-size: 12px;
+    justify-content: space-between;
+}.compMedium{
+    font-size: 12px;
+    margin:auto;
+    margin-bottom: 14px;
+    margin-top: 7px;
+    display: flex;
+    width: 334px;
+    height: 77px;
+    border-radius: 8px;
+    border: 1px solid #efefef;
+    box-shadow: 0px 3px 5px 2px #efefef;
+    align-items: center;
+    justify-content: space-between;
+}.compLarge{
+    font-size: 12px;
+    margin:auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: flex;
+    width: 334px;
+    height: 77px;
+    border-radius: 8px;
+    border: 1px solid #efefef;
+    box-shadow: 0px 3px 5px 2px #efefef;
+    align-items: center;
+    justify-content: space-between;
+}
+.CompAmount{
+    margin: auto;
+}
+.compText{
+    margin-left: 15px;
+}
+.finishButt{
+    border-radius: 20px;
+    background-color: #44692B;
+    margin: 37px 39px 30px 39px;
+    padding: 10px 0px 10px 0px;
+    color: #FFFFFF;
+}
