@@ -21,13 +21,17 @@
 
 }
 .compSmall{
+    margin:auto;
     margin-bottom: 7px;
     display: flex;
     width: 334px;
     border-radius: 8px;
     height: 77px;
     border: 1px solid #efefef;
+    box-shadow: 2px 5px #efefef;
+    align-items: center;
 }.compMedium{
+    margin:auto;
     margin-bottom: 7px;
     margin-top: 7px;
     display: flex;
@@ -35,13 +39,20 @@
     height: 77px;
     border-radius: 8px;
     border: 1px solid #efefef;
+    box-shadow: 2px 5px #efefef;
+    align-items: center;
 }.compLarge{
+    margin:auto;
     margin-top: 7px;
     margin-bottom: 7px;
     display: flex;
     width: 334px;
     height: 77px;
     border-radius: 8px;
-
     border: 1px solid #efefef;
+    box-shadow: 2px 5px #efefef;
+    align-items: center;
+}
+.CompAmount{
+    margin: auto;
 }
