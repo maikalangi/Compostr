@@ -1,25 +1,23 @@
+import '../style/Login.css';
+import logo from '../img/logo.png';
+
 const Login = () =>{
 
     return (
     <div className="login">
-        <div>
-
-        Login
-        <svg height="100" width="100">
-            <circle cx="50" cy="50" r="30" stroke="gray" stroke-width="1" fill="green" />
-        </svg>
-        Sign Up
-        </div>
+        <img src={logo} alt="" />
         <br />
-        Continue with
+        compostr
+        <br />
+        Making your city greener one bag at a time
         <br />
         <input type="email" placeholder="example@gmail.com"/>
         <br />
         <input type="text" />
         <br />
-        <input type="checkbox" /> Remember Me Forgot Password?
+        Forgot Password?
         <br />
-        <button>Login</button>
+        <button>Log In</button>
         <br />
         Don't Have an account? Sign Up here
 
