@@ -1,11 +1,15 @@
 import '../style/Login.css';
 import logo from '../img/logo.png';
+import apple from '../img/apple.png';
+import facebook from '../img/facebook.png';
+import twitter from '../img/twitter.png';
+import google from '../img/google.png';
 
 const Login = () =>{
 
     return (
     <div className="login">
-        <img src={logo} alt="" />
+        <img src={logo} alt="logo" />
         <br />
         compostr
         <br />
@@ -19,7 +23,14 @@ const Login = () =>{
         <br />
         <button>Log In</button>
         <br />
-        Don't Have an account? Sign Up here
+        <button>Sign Up</button>
+        <br />
+        or
+        <br />
+        <img src={apple} alt="apple" /> 
+        <img src={facebook} alt="facebook" />
+        <img src={twitter} alt="twitter" />
+        <img src={google} alt="google" />
 
     </div>
     )
