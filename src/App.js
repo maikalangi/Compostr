@@ -2,6 +2,7 @@ import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
 import Login from './pages/Login';
+import BottomNav from './components/BottomNav';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           </Route>
         </Routes>
       </Router>
+      <BottomNav/>
     </div>
   );
 }
