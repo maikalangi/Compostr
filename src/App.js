@@ -6,6 +6,7 @@ import Login from './pages/Login';
 function App() {
   return (
     <div className="App">
+<<<<<<< Updated upstream
       <Router>
         <Routes>
           <Route path="/" exact element={<Login/>}>
@@ -14,6 +15,10 @@ function App() {
           </Route>
         </Routes>
       </Router>
+=======
+      <header className="App-header">
+      </header>
+>>>>>>> Stashed changes
     </div>
   );
 }
