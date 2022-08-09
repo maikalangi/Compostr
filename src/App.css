@@ -2,6 +2,50 @@
   text-align: center;
 }
 
+.image{ 
+  background-attachment: fixed;
+  height: 800px;
+  width: auto;
+  object-fit: cover;
+  
+}
+
+.bottom{
+  margin-top: 500px;
+  width: 100%;
+}
+
+.btn{
+  position: absolute;
+  top: 35%;
+  left: 82%;
+  margin: .75rem;
+  height: 30%;
+}
+.btn2 {
+  position: absolute;
+  top: 10%;
+  left: 42%;
+  margin: .75rem;
+  height: 30%;
+}
+.btn3 {
+  position: absolute;
+  top: 35%;
+  left: 32%;
+  margin: .75rem;
+  height: 30%;
+}
+.btn4 {
+  position: absolute;
+  top: 55%;
+  left: 12%;
+  margin: .75rem;
+  height: 30%;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
