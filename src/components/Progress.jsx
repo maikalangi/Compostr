@@ -1,21 +1,22 @@
 import React from "react";
 
 const Progress = ({prog}) =>{
+    prog = prog*10
 
     const Daddydiv = {
-        height: 10,
+        height: 20,
         width:'80%',
         backgroundColor: 'whitesmoke',
-        borderRadius:40,
-        marginLeft:0,
-        marginRight:0,
+        borderRadius:20,
+        marginLeft: 'auto',
+        marginRight:'auto',
 
     }
     const LilDiv = {
         height: '100%',
         width: `${prog}%`,
         backgroundColor: '#44692B',
-       borderRadius:40,
+       borderRadius:20,
         textAlign: 'right'
       }
       const progresstext = {

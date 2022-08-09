@@ -12,9 +12,6 @@ const Calculator = () =>{
 
 
     const incCount = (pm,val) =>{
-
-
-
         if(val === "small"){
             let nCount = sCount+pm
             setSCount(nCount)
@@ -66,6 +63,16 @@ const Calculator = () =>{
             setLCount(vInt)
         }
     }
+    const resizeRewards = () =>{
+        const badgeW = {
+            width: '25%'
+        }
+        if (reward.length > 4){
+            badgeW.width = '10%'
+        }
+
+
+    }
 
     const goRewards = () =>{
         let rew = sCount+mCount*2+lCount*3
@@ -88,6 +95,7 @@ const Calculator = () =>{
 
             <div className="congrats">
                 <div className="gratsBadge"  ></div>
+                <div className="bCount">Congrats on becoming a compost worm!</div>
             
             </div>
             <div className="badgeCount">
@@ -95,13 +103,14 @@ const Calculator = () =>{
             {reward.map((x,i)=>{return(
                 <div key={i} className="badge"></div>
             )})}
-            {reward.length>1 ? (<div>{`${reward.length}`} Badges!</div>): (<div>{`${reward.length}`} Badge</div>)}
+            {reward.length>1 ? (<div className="bCount">{`${reward.length}`} Points!</div>): (<div className="bCount">{`${reward.length}`} Badge</div>)}
 
             </div>
             <Progress prog={reward.length}></Progress>
+            <div className="pointsline">{reward.length}/10 Points</div>
 
             </div>
-            <div><div className="socialNet"> Share on social media</div><div className="socialIcons"><div className="fb"></div><div className="tw"></div><div className="ig"></div></div></div>
+            <div><div className="socialNet"> Share your badge on social media</div><div className="socialIcons"><div className="fb"></div><div className="tw"></div><div className="ig"></div></div></div>
 
         </div>
         
