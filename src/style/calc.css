@@ -1,0 +1,47 @@
+.minus{
+    background-color: #44692B;
+    height: 32px;
+    width:32px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.plus{
+    background-color: #44692B;
+    height: 32px;
+    width:32px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+.counterCount{
+    border-radius: 10px;
+}
+.counter{
+    display: flex;
+
+}
+.compSmall{
+    margin-bottom: 7px;
+    display: flex;
+    width: 334px;
+    border-radius: 8px;
+    height: 77px;
+    border: 1px solid #efefef;
+}.compMedium{
+    margin-bottom: 7px;
+    margin-top: 7px;
+    display: flex;
+    width: 334px;
+    height: 77px;
+    border-radius: 8px;
+    border: 1px solid #efefef;
+}.compLarge{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    display: flex;
+    width: 334px;
+    height: 77px;
+    border-radius: 8px;
+
+    border: 1px solid #efefef;
+}
