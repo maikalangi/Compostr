@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/map' element={<Map />}/>
-          <Route path='/main' element={<MainpageMap />}/>
+          <Route path='/main' element={<MainpageMap placement={"bottom"}/>}/>
         </Routes>
       </BrowserRouter>
     </div>
