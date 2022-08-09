@@ -4,8 +4,7 @@ import React from "react";
 
 function Home(){
   
-  let apiKey = process.env.YOUR_API_KEY
-  let url = `https://www.google.com/maps/embed/v1/MAP_MODE?key=${apiKey}`
+ 
   // if(!isLoaded) return <div>Loading...</div>
   return(    
     <div className="App">
@@ -17,6 +16,8 @@ function Home(){
           loading="lazy" 
           referrerpolicy="no-referrer-when-downgrade">
         </iframe>
+      
+{/* <div className="elfsight-app-34004450-1949-4002-852f-d7bc00c4cdb6"></div> */}
       <h1></h1>
     </div>
   )
