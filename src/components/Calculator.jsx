@@ -1,10 +1,14 @@
 import React,{ useState } from "react";
 import "../style/calc.css"
+import Progress from "./Progress";
 
 const Calculator = () =>{
     const [sCount, setSCount] = useState(0)
     const [mCount, setMCount] = useState(0)
     const [lCount, setLCount] = useState(0)
+    const [reward,setReward]  = useState([])
+    const [finishComp,setFinish] = useState(false)
+    const [grats,setGrats] = useState("")
 
 
     const incCount = (pm,val) =>{
@@ -63,8 +67,47 @@ const Calculator = () =>{
         }
     }
 
+    const goRewards = () =>{
+        let rew = sCount+mCount*2+lCount*3
+        let r = []
+        for(let i = 0; i< rew;i++){
+            r.push(1)
+        }
+        setGrats("../public/worm.png")
+        setReward(r)
+        rew > 0 ? setFinish(!finishComp) : alert("You have nothing to compost!")
+    }
+
     return (
     <div className="Calculator">
+        
+        {finishComp ? 
+        
+        
+        <div className="rewardPage">
+
+            <div className="congrats">
+                <div className="gratsBadge"  ></div>
+            
+            </div>
+            <div className="badgeCount">
+            <div className="bbb" key="badge">
+            {reward.map((x,i)=>{return(
+                <div key={i} className="badge"></div>
+            )})}
+            {reward.length>1 ? (<div>{`${reward.length}`} Badges!</div>): (<div>{`${reward.length}`} Badge</div>)}
+
+            </div>
+            <Progress prog={reward.length}></Progress>
+
+            </div>
+            <div><div className="socialNet"> Share on social media</div><div className="socialIcons"><div className="fb"></div><div className="tw"></div><div className="ig"></div></div></div>
+
+        </div>
+        
+        :
+        
+        
         <div className="CompostCalc">
             <div className="CompPic">
                 this is a picture
@@ -93,8 +136,12 @@ const Calculator = () =>{
                 value={lCount}
                 onChange={(e)=>setNumber(e.target,e.target.value)}/><div className="plus" onClick={()=>incCount(1,"large")}>+</div></div></div>
             </div>
-        <div className="finishButt">Finish Composting</div>
-        </div>
+
+
+        <div className="finishButt" onClick={()=>goRewards()}>Finish Composting</div>
+        
+        
+        </div>}
     </div>
     )
 

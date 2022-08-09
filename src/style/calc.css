@@ -59,6 +59,7 @@ div{
     text-align: center;
     box-shadow: 0px 3px 5px 2px #efefef;
     font-size: 12px;
+    background-color: #FFFFFF;
     justify-content: space-between;
 }.compMedium{
     font-size: 12px;
@@ -71,6 +72,7 @@ div{
     border-radius: 8px;
     border: 1px solid #efefef;
     box-shadow: 0px 3px 5px 2px #efefef;
+    background-color: #FFFFFF;
     align-items: center;
     justify-content: space-between;
 }.compLarge{
@@ -84,6 +86,7 @@ div{
     border-radius: 8px;
     border: 1px solid #efefef;
     box-shadow: 0px 3px 5px 2px #efefef;
+    background-color: #FFFFFF;
     align-items: center;
     justify-content: space-between;
 }
@@ -96,7 +99,76 @@ div{
 .finishButt{
     border-radius: 20px;
     background-color: #44692B;
-    margin: 37px 39px 30px 39px;
+    margin: 37px 39px 10px 39px;
     padding: 10px 0px 10px 0px;
     color: #FFFFFF;
 }
+.rewardPage{
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 739px;
+    width: 372px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+.badgeCount{
+    margin: 0 auto;
+    height: 203px;
+    width: 334px;
+    border-radius: 8px;
+    border: 1px solid #efefef;
+    box-shadow: 0px 3px 5px 2px #efefef;
+    align-items: center;
+    text-align: center;
+}
+.bbb{
+    display: flex;
+    
+}
+.badge{
+    background-image: url("../img/badge.png");
+    background-repeat: no-repeat;
+    height: 65px;
+    width: 65px;
+
+}
+.socialNet{
+    margin: 100px 0px 0px 0px;
+}
+.socialIcons{
+    margin-right: 35%;
+    margin-left: 35%;
+    display: flex;
+}
+.fb{
+    margin:0 auto;
+    background-image: url("../img/cib_facebook.png");
+    height: 34px;
+    width: 34px;
+
+}
+.ig{
+    margin:0 auto;
+    background-image: url("../img/cib_instagram.png");
+    height: 34px;
+    width: 34px;
+
+}
+.tw{
+    margin:-2px 0px 0px 0px;
+    background-image: url("../img/cib_twitter.png");
+    height: 36px;
+    width: 36px;
+}
+.congrats{
+    border: solid rgba(0,0,0,0) 1px;
+    height: 275px;
+}
+.gratsBadge{
+    background-image: url("../img/worm.png");
+    margin: 0 auto;
+    margin-top: 35px;
+    height: 181px;
+    width: 170px;
+}
+
