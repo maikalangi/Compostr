@@ -17,7 +17,7 @@ function App() {
           <Route path="/contribute" exact element={<Calculator/>}>
           </Route>
           <Route path='/map' element={<Map />}/>
-           <Route path='/main' element={<MainpageMap placement={"bottom"}/>}/>
+           <Route path='/main' element={<MainpageMap />}/>
         </Routes>
       <BottomNav/>
       </BrowserRouter>

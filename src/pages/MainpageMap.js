@@ -11,31 +11,37 @@ function MainpageMap() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    const handleClick = event => {
+        event.target.parentNode.style.height='855px'
+    }
+
+    
   return (
     <div className='divImage'>
     <img className="image" src={Map}/>
         <>
-        <a class="btn" onClick={handleShow} href="#" >
+        <a class="btn" onClick={handleShow}  >
             <ImLeaf size={35} color='#398f3f' />    
               
         </a>
-         <Offcanvas show={show} onHide={handleClose}>
+         <Offcanvas show={show} onHide={handleClose} placement={'bottom'} className="offcanvas"  >
+            <button onClick={handleClick}>More</button>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>Offcanvas</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+          have chosen. Like, text, images, lists, etc....
         </Offcanvas.Body>
       </Offcanvas>
         </>
-         <a class="btn2" onClick={handleShow} href="#">
+         <a class="btn2" onClick={handleShow} >
             <ImLeaf size={35} color='#398f3f' />
         </a>
-         <a class="btn3" onClick={handleShow}href="#">
+         <a class="btn3" onClick={handleShow}>
             <ImLeaf size={35} color='#398f3f' />
         </a>
-         <a class="btn4" onClick={handleShow} href="#">
+         <a class="btn4" onClick={handleShow}>
             <ImLeaf size={35} color='#398f3f' />
         </a>
         <BsCircleFill className="circle" size={20} color='blue' />
