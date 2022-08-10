@@ -38,7 +38,7 @@ const Info = ({setNavBool}) => {
         even gave me some tips on how to use waste if I wanted to.
       </div>
       <Link to='/contribute'>
-      <div className="finishButt">Compost</div>
+      <div className="finishButt2" >Compost</div>
       </Link>
     </div>
   );
