@@ -4,7 +4,8 @@ import infoicons from "../assets/infoicons.png";
 import User from "../assets/User.png";
 import { Link } from 'react-router-dom'
 
-const Info = () => {
+const Info = ({setNavBool}) => {
+  setNavBool(true)
   return (
     <div className="infoPage">
       <div className="infoImage"></div>
