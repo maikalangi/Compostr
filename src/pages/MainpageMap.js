@@ -27,8 +27,7 @@ function MainpageMap({setNavBool}) {
     <img className="image" src={Map}/>
         <>
         <a class="btn" onClick={handleShow}  >
-            <ImLeaf size={35} color='#398f3f' />    
-              
+            <ImLeaf size={35} color='#398f3f' />         
         </a>
          <Offcanvas show={show} onHide={handleClose} placement={'bottom'} style={{height:'300px'}}className="offcanvas"  >
         <Offcanvas.Body>
