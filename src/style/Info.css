@@ -75,7 +75,7 @@ body {
   background-image: none;
 }
 
-.finishButt {
+.finishButt2 {
     display: inline-block;
     margin-bottom: 15px;
     width:271px;
@@ -83,4 +83,10 @@ body {
     background-image: url(../assets/plus.png);
     background-repeat:no-repeat;
     background-position:65px;
+    border-radius: 20px;
+    background-color: #44692B;
+    margin: 37px 39px 10px 39px;
+    padding: 10px 0px 10px 0px;
+    color: #FFFFFF;
+
 }
