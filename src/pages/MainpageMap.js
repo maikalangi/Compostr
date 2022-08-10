@@ -1,9 +1,9 @@
 import React from 'react'
 import Map from "../assets/map.png"
 import { ImLeaf } from "react-icons/im"
-import { BsCircleFill } from "react-icons/bs"
+// import { BsCircleFill } from "react-icons/bs"
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import "../style/map.css"
 import { useNavigate } from 'react-router';
 
@@ -16,9 +16,9 @@ function MainpageMap({setNavBool}) {
 
     const navigate=useNavigate()
 
-    const handleClick = event => {
-        event.target.parentNode.style.height='855px'
-    }
+    // const handleClick = event => {
+    //     event.target.parentNode.style.height='855px'
+    // }
 
     const handleLogout = ()=> {
         localStorage.removeItem("token")
@@ -28,12 +28,12 @@ function MainpageMap({setNavBool}) {
   return (
     <div className='divImage'>
       <div className='searchBar'><input className='searchinput' placeholder='Find Compost Site'></input><div className='magnify'></div></div>
-    <img className="image" src={Map}/>
+    <img className="image" src={Map} alt="bigmap"/>
         <>
-        <a class="btn" onClick={handleShow}  >
+        <div class="btn" onClick={handleShow}  >
             <ImLeaf size={35} color='#398f3f' />    
               
-        </a>
+        </div>
          <Offcanvas show={show} onHide={handleClose} placement={'bottom'} style={{height:'300px'}}className="offcanvas"  >
         <Offcanvas.Body>
           <div className='modalHead'><div className='modalTitle'>Miami Community Garden ·</div><div className='modalDistance'> 0.2 mi</div></div>
@@ -44,15 +44,15 @@ function MainpageMap({setNavBool}) {
         </Offcanvas.Body>
       </Offcanvas>
         </>
-         <a class="btn2" onClick={handleShow} >
+         <div class="btn2" onClick={handleShow} >
             <ImLeaf size={35} color='#398f3f' />
-        </a>
-         <a class="btn3" onClick={handleShow}>
+        </div>
+         <div class="btn3" onClick={handleShow}>
             <ImLeaf size={35} color='#398f3f' />
-        </a>
-         <a class="btn4" onClick={handleShow}>
+        </div>
+         <div class="btn4" onClick={handleShow}>
             <ImLeaf size={35} color='#398f3f' />
-        </a>
+        </div>
         {/* <BsCircleFill className="circle" size={20} color='blue' /> */}
     <div>MainpageMap</div>
         <button onClick={handleLogout}>Log Out</button>
