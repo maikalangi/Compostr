@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import axios from 'axios'
 import React  from 'react'
+import { ToastContainer, toast  } from "react-toastify"
 
 const NewLogin = ({setNavBool}) =>{
 
@@ -12,6 +13,7 @@ const NewLogin = ({setNavBool}) =>{
         email:"",
         password:"",
     })
+
 
 
     const handleChange =({ currentTarget: input}) => {
@@ -25,8 +27,10 @@ const NewLogin = ({setNavBool}) =>{
             const {data:res} =await axios.post(url,data)
             localStorage.setItem("token", res.data)
             window.location="/main"
+            alert(res.message)
             console.log(res.message)
         } catch (error) {
+            alert("Invalid Email or Password")
             console.log(error.response.data)
         }
     }
@@ -43,8 +47,10 @@ const NewLogin = ({setNavBool}) =>{
 			const url = "http://localhost:4000/api/users";
 			const { data: res } = await axios.post(url, data);
 			navigate("/");
+            alert(res.message)
 			console.log(res.message);
 		} catch (error) {
+            alert("Please use a different password")
 			console.log(error.response.data)
 		}
 	};
