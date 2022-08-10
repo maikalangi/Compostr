@@ -25,7 +25,7 @@ const Info = () => {
         <strong>Instructions:</strong> Check in with a garden associate and drop
         off compost at the entrance
       </div>
-      <div className="memo">If the garden is locked, used code 2217.</div>
+      <div className="memo">If the garden is locked, use code 2217.</div>
       <div className="reviews">
         <strong>Reviews:</strong>
       </div>
