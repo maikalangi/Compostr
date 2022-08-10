@@ -24,6 +24,7 @@ function Signup() {
 			navigate("/login");
 			console.log(res.message);
 		} catch (error) {
+            setError(error.response.data)
 			console.log(error.response.data)
 		}
 	};

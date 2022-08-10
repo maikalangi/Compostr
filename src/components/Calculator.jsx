@@ -9,7 +9,7 @@ const Calculator = () =>{
     const [lCount, setLCount] = useState(0)
     const [reward,setReward]  = useState([])
     const [finishComp,setFinish] = useState(false)
-    const [grats,setGrats] = useState("")
+    // const [grats,setGrats] = useState("")
 
 
     const incCount = (pm,val) =>{
@@ -62,14 +62,7 @@ const Calculator = () =>{
             setLCount(vInt)
         }
     }
-    const resizeRewards = () =>{
-        const badgeW = {
-            width: '25%'
-        }
-        if (reward.length > 4){
-            badgeW.width = '10%'
-        }
-    }
+
 
     const goRewards = () =>{
 
@@ -79,9 +72,6 @@ const Calculator = () =>{
         for(let i = 0; i< rew;i++){
             r.push(1)
         }
-        setGrats("../public/worm.png")
-        let earl = "/public/background.png"
-        let bgs = "url('"+ earl +"')";
         document.body.style.backgroundImage = `url('${bg}')`;
 
         setReward(r)

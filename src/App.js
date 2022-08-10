@@ -1,14 +1,14 @@
 
 import { useState } from 'react';
-import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import Map from './pages/Map';
 import './App.css';
 import MainpageMap from './pages/MainpageMap';
 import Calculator from './components/Calculator';
-import Login from './pages/Login';
+// import Login from './pages/Login';
 import BottomNav from './components/BottomNav';
-import Signup from './pages/Signup';
+// import Signup from './pages/Signup';
 
 import Info from './pages/Info'
 
