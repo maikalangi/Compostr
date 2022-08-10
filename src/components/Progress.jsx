@@ -6,7 +6,7 @@ const Progress = ({prog}) =>{
     const Daddydiv = {
         height: 20,
         width:'80%',
-        backgroundColor: 'whitesmoke',
+        backgroundColor: '#F3F6EB',
         borderRadius:20,
         marginLeft: 'auto',
         marginRight:'auto',
@@ -15,8 +15,8 @@ const Progress = ({prog}) =>{
     const LilDiv = {
         height: '100%',
         width: `${prog}%`,
-        backgroundColor: '#44692B',
-       borderRadius:20,
+        backgroundColor: '#447A51',
+        borderRadius:20,
         textAlign: 'right'
       }
       const progresstext = {
@@ -27,7 +27,7 @@ const Progress = ({prog}) =>{
       return (
         <div style={Daddydiv}>
           <div style={LilDiv}>
-            <span style={progresstext}>{`${prog}%`}</span>
+            <span style={progresstext}></span>
           </div>
         </div>
         )
