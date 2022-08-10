@@ -1,13 +1,9 @@
 ## Compostr 
 #### Compostr is a full stack MERN web application that was created because of the concern about our planet. 
 
-<img width="500" alt="User Persona" src="">
+![home](https://user-images.githubusercontent.com/103911002/184027454-35527488-b1bd-4f5f-a6af-ccb8c79759ba.png)
 
-<img width="500" alt="Home Page" src="">
-<img width="500" alt="Home Page" src="">
-<img width="500" alt="Home Page" src="">
-<img width="500" alt="Home Page" src="">
-<img width="500" alt="Home Page" src="">
+
 
 ## Table of Contents
 * [Technologies Used](#technologiesused)
@@ -41,8 +37,8 @@
 * Deploy backend
 
 ## <a name="planning"></a>Planning
-*  [Sketch]()
+![User Persona](https://user-images.githubusercontent.com/103911002/184027012-0a3c852e-a8e4-4002-9699-4097bbe96573.png)
+![Sketch](https://user-images.githubusercontent.com/103911002/184026874-bafebcfb-5c3f-42b1-895e-29ddff8110b8.png)
 
 ## <a name="theteam"></a>The Team
-[The Compostr Team]()
-
+![Team](https://user-images.githubusercontent.com/103911002/184026818-639904ad-e583-413e-9e60-85dd719eb2c0.png)
