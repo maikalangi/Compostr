@@ -1,0 +1,149 @@
+body{
+  background-image: url("../img/Backgroundbackground.png");
+}
+.loginBox{
+    margin-top: 57px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #ffffff;
+    width: 367px;
+    height: 788px;
+    border-radius: 20px;
+
+}
+.logoArea{
+    display: inline-block;
+    width: 150px;
+    height: 160px;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 57px;
+}
+.compName{
+    font-size: 38px;
+}
+.slogan{
+    margin-bottom:55px;
+    font-size: 14px;
+}
+.emailBox{
+    display: flex;
+    justify-content: center;
+    margin-bottom:30px;
+}
+.emailpng{
+    background-image: url("../img/atsymbol.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+}
+.email{
+    margin-left: 10px;
+    border: #ffffff;
+    width: 282px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.passBox{
+    display: flex;
+
+    justify-content: center;
+    margin-bottom:20px;
+}
+.passpng{
+    background-image: url("../img/lock.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 25px;
+}
+.pass{
+    margin-left: 10px;
+    border: #ffffff;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    width: 282px;
+}
+.fPass{
+    color:#44692B;
+    font-weight:500;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.logButt{
+    width: 271px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #44692B;
+    color:#ffffff;
+    padding-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+.signButt{
+    width: 271px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #F3F6EB;
+    color:#44692B;
+    padding-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:4px;
+    margin-bottom:30px
+}
+.orLine{
+    margin-bottom:30px;
+    display: flex;
+    flex-direction: row;
+    color: #44692B;
+
+}
+.orLine:before, .orLine:after {
+    content: " ";
+    flex: 1 1;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin:auto;
+}
+.orLine:before{
+    margin-right: 40px;
+}
+.orLine:after{
+    margin-left: 40px;
+}
+.socialSign{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+}
+.fb{
+    background-image: url("../img/cib_facebook.png");
+
+    width: 34px;
+    height: 34px;
+}
+.tw{
+    background-image: url("../img/cib_twitter.png");
+
+    width: 34px;
+    height: 34px;
+}
+.ig{
+    background-image: url("../img/cib_instagram.png");
+
+    width: 34px;
+    height: 34px;
+}
+.gg{
+    background-image: url("../img/cib_google.png");
+    width: 34px;
+    height: 34px;
+}
+input::placeholder{
+    opacity: .3;
+}
