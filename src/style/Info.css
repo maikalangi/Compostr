@@ -1,0 +1,21 @@
+
+
+h4 {
+    padding-top: 15px;
+    text-align: left;
+    padding-left: 13px;
+}
+
+.card-info {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 13px;
+    margin:0;
+    line-height: 20px;
+}
+
+p {
+    margin-bottom:0;
+    padding:0px;
+    
+}

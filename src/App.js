@@ -6,6 +6,7 @@ import MainpageMap from './pages/MainpageMap';
 import Calculator from './components/Calculator';
 import Login from './pages/Login';
 import BottomNav from './components/BottomNav';
+import Info from './pages/Info'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           <Route path="/" exact element={<Login/>}>
           </Route>
           <Route path="/contribute" exact element={<Calculator/>}>
+          </Route>
+          <Route path="/info" exact element={<Info/>}>
           </Route>
           <Route path='/map' element={<Map />}/>
            <Route path='/main' element={<MainpageMap placement={"bottom"}/>}/>
