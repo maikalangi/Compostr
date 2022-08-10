@@ -57,7 +57,8 @@ const NewLogin = ({setNavBool}) =>{
 
 
     setNavBool(false)
-    console.log()
+
+
     return (
         <div className="nLogin">
             <div className="loginBox">
@@ -72,7 +73,7 @@ const NewLogin = ({setNavBool}) =>{
                 <div className="signButt" onClick={handleSubmitSignUp}>Sign up</div>
                 </form>
                 <div className="orLine">     OR</div>
-                <div className="socialSign">
+                <div className="socialSign" onClick={()=>navigate('/main')}>
                     <div className="fb"/>
                     <div className="tw"/>
                     <div className="ig"/>

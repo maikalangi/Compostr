@@ -26,16 +26,11 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-
-
-          <Route path="/info" exact element={<Info/>}>
-          </Route>
-
+          <Route path="/info" exact element={<Info setNavBool={setNavBool}/>}/>
           <Route path="/" exact element={<NewLogin setNavBool={setNavBool}/>}/>
-          <Route path="/contribute" exact element={<Calculator/>}/>          
-
+          <Route path="/contribute" exact element={<Calculator setNavBool={setNavBool}/>}/>          
           <Route path='/map' element={<Map />}/>
-          <Route path='/main' element={<MainpageMap placement={"bottom"}/>}/>
+          <Route path='/main' element={<MainpageMap setNavBool={setNavBool} placement={"bottom"}/>}/>
 
         </Routes>
       <BottomNav nav={navBool}/>

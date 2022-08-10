@@ -1,21 +1,86 @@
-
-
-h4 {
-    padding-top: 15px;
-    text-align: left;
-    padding-left: 13px;
+.infoPage{
+    background-color: #ffffff;
+}
+.infoImage {
+  display: inline-block;
+  width: 100%;
+  height: 250px;
+  background-image: url("../assets/infoimage.png");
+  background-repeat: no-repeat;
+  background-position: cover;
 }
 
-.card-info {
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 13px;
-    margin:0;
-    line-height: 20px;
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 13px;
 }
 
-p {
-    margin-bottom:0;
-    padding:0px;
-    
+.address {
+  padding-top: 13px;
+  text-align: left;
+  padding-left: 13px;
+}
+
+.hours {
+  text-align: left;
+  padding-left: 13px;
+}
+
+.compostType {
+  text-align: left;
+  padding-left: 13px;
+}
+
+.icons {
+  text-align: left;
+  padding-left: 13px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.instructions {
+  text-align: left;
+  padding-left: 13px;
+}
+
+.memo {
+  padding-top: 13px;
+  text-align: left;
+  padding-left: 13px;
+}
+
+.reviews {
+  padding-top: 13px;
+  text-align: left;
+  padding-left: 13px;
+}
+
+.reviewImg {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-align: left;
+  padding-left: 13px;
+  background-image: 
+}
+
+.reviewText {
+  text-align: left;
+  padding-left: 13px;
+}
+
+body {
+  background-color: whitesmoke;
+  background-image: none;
+}
+
+.finishButt {
+    display: inline-block;
+    margin-bottom: 15px;
+    width:271px;
+    cursor:pointer;
+    background-image: url(../assets/plus.png);
+    background-repeat:no-repeat;
+    background-position:65px;
 }

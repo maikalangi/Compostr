@@ -1,6 +1,11 @@
 body{
   background-image: url("../img/Backgroundbackground.png");
 }
+@font-face {
+    font-family: Arbordage;
+    src: url('/src/assets/Abordage-Regular.woff');
+    font-weight: bold;
+  }
 .loginBox{
     margin-top: 57px;
     margin-left: auto;
@@ -23,6 +28,8 @@ body{
 }
 .compName{
     font-size: 38px;
+    font-family: Arbordage;
+    color: #44692B;
 }
 .slogan{
     margin-bottom:55px;
