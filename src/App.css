@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .image{ 
@@ -8,6 +9,10 @@
   width: auto;
   object-fit: cover;
   
+}
+
+.offcanvas{
+  background-color: red;
 }
 
 .bottom{
