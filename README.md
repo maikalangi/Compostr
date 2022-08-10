@@ -20,7 +20,7 @@
 * MongoDB
 * React
 
-## <a name="feautures"></a>Features
+## <a name="features"></a>Features
 * User Authentication
 * Interactive Map (Google Maps)
 * Compost Calculator and Point System
