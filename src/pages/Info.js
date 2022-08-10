@@ -2,6 +2,7 @@ import React from "react";
 import "../style/Info.css";
 import infoicons from "../assets/infoicons.png";
 import User from "../assets/User.png";
+import { Link } from 'react-router-dom'
 
 const Info = () => {
   return (
@@ -24,7 +25,7 @@ const Info = () => {
         <strong>Instructions:</strong> Check in with a garden associate and drop
         off compost at the entrance
       </div>
-      <div className="memo">If the garden is locked, used code 2217.</div>
+      <div className="memo">If the garden is locked, use code 2217.</div>
       <div className="reviews">
         <strong>Reviews:</strong>
       </div>
@@ -35,7 +36,9 @@ const Info = () => {
         This compost site was so easy to get to! The owner was very friendly and
         even gave me some tips on how to use waste if I wanted to.
       </div>
+      <Link to='/contribute'>
       <div className="finishButt">Compost</div>
+      </Link>
     </div>
   );
 };
