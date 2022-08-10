@@ -1,8 +1,11 @@
 import "../style/nLogin.css"
+import { useNavigate } from "react-router"
+
 
 const NewLogin = ({setNavBool}) =>{
     setNavBool(false)
-    console.log()
+    const navigate = useNavigate()
+
     return (
         <div className="nLogin">
             <div className="loginBox">
@@ -15,7 +18,7 @@ const NewLogin = ({setNavBool}) =>{
                 <div className="logButt">Log in</div>
                 <div className="signButt">Sign up</div>
                 <div className="orLine">     OR</div>
-                <div className="socialSign">
+                <div className="socialSign" onClick={()=>navigate('/main')}>
                     <div className="fb"/>
                     <div className="tw"/>
                     <div className="ig"/>

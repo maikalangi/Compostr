@@ -7,7 +7,8 @@ import { useState, useEffect } from "react"
 import "../style/map.css"
 import { useNavigate } from 'react-router';
 
-function MainpageMap() {
+function MainpageMap({setNavBool}) {
+    setNavBool(true)
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -26,6 +27,7 @@ function MainpageMap() {
     
   return (
     <div className='divImage'>
+      <div className='searchBar'><input className='searchinput'></input><div className='magnify'></div></div>
     <img className="image" src={Map}/>
         <>
         <a class="btn" onClick={handleShow}  >
