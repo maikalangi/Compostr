@@ -25,8 +25,7 @@ function App() {
           <Route path="/info" exact element={<Info/>}>
           </Route>
 
-          <Route path="/" exact element={<Login/>}/>
-          <Route path="/nLogin" exact element={<NewLogin setNavBool={setNavBool}/>}/>
+          <Route path="/" exact element={<NewLogin setNavBool={setNavBool}/>}/>
           <Route path="/contribute" exact element={<Calculator/>}/>          
 
           <Route path='/map' element={<Map />}/>
