@@ -1,71 +1,48 @@
-# Getting Started with Create React App
+## Compostr 
+#### Compostr is a full stack MERN web application that was created because of the concern about our planet. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="500" alt="User Persona" src="">
 
-## Available Scripts
+<img width="500" alt="Home Page" src="">
+<img width="500" alt="Home Page" src="">
+<img width="500" alt="Home Page" src="">
+<img width="500" alt="Home Page" src="">
+<img width="500" alt="Home Page" src="">
 
-In the project directory, you can run:
+## Table of Contents
+* [Technologies Used](#technologiesused)
+* [Deployed App](#deployment)
+* [Features](#features)
+* [Project Next Steps](#nextsteps)
+* [Planning](#[planning])
+* [The Team](#[theteam])
 
-### `npm start`
+## <a name="technologiesused"></a>Technologies Used
+* HTML5
+* CSS
+* Javascript
+* MongoDB
+* React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## <a name="feautures"></a>Features
+* User Authentication
+* Interactive Map (Google Maps)
+* Compost Calculator and Point System
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## <a name="deployment"></a>Deployed Link
+* Visit the mobile version of our deployed app here (viewable on iPhone XR): [Compostr](https://master--tubular-starlight-f7d150.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## <a name="nextsteps"></a>Project Next Steps
+* Connect google map API so that users can find compost sites in any location.  
+* Connect social media links.
+* Add a photo upload feauture.
+* Make a web version of the application.
+* Deploy backend
 
-### `npm run build`
+## <a name="planning"></a>Planning
+*  [Sketch]()
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## <a name="theteam"></a>The Team
+[The Compostr Team]()
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Compostr
