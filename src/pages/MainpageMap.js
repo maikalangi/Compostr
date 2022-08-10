@@ -20,20 +20,18 @@ function MainpageMap({setNavBool}) {
     //     event.target.parentNode.style.height='855px'
     // }
 
-    const handleLogout = ()=> {
-        localStorage.removeItem("token")
-        window.location.reload()
-    }
     
   return (
     <div className='divImage'>
       <div className='searchBar'><input className='searchinput' placeholder='Find Compost Site'></input><div className='magnify'></div></div>
     <img className="image" src={Map} alt="bigmap"/>
         <>
+
         <div class="btn" onClick={handleShow}  >
             <ImLeaf size={35} color='#398f3f' />    
               
         </div>
+
          <Offcanvas show={show} onHide={handleClose} placement={'bottom'} style={{height:'300px'}}className="offcanvas"  >
         <Offcanvas.Body>
           <div className='modalHead'><div className='modalTitle'>Miami Community Garden ·</div><div className='modalDistance'> 0.2 mi</div></div>
@@ -55,7 +53,6 @@ function MainpageMap({setNavBool}) {
         </div>
         {/* <BsCircleFill className="circle" size={20} color='blue' /> */}
     <div>MainpageMap</div>
-        <button onClick={handleLogout}>Log Out</button>
     </div>
   )
 }

@@ -9,7 +9,7 @@ function Signup() {
         email:"",
         password:""
     })
-    const [error,setError] = useState("")
+  
     const navigate = useNavigate()
 
     const handleChange =({ currentTarget: input}) => {
@@ -21,7 +21,7 @@ function Signup() {
 		try {
 			const url = "http://localhost:4000/api/users";
 			const { data: res } = await axios.post(url, data);
-			navigate("/login");
+			navigate("/");
 			console.log(res.message);
 		} catch (error) {
             setError(error.response.data)
@@ -55,7 +55,6 @@ function Signup() {
                     value={data.password}
                     required
                 />
-                {error && <div>{error}</div>}
                 <button type="submit">
                     Sign Up
                 </button>
