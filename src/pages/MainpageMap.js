@@ -4,6 +4,7 @@ import { ImLeaf } from "react-icons/im"
 import { BsCircleFill } from "react-icons/bs"
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useState, useEffect } from "react"
+import "../style/map.css"
 
 function MainpageMap() {
     const [show, setShow] = useState(false);
@@ -29,13 +30,11 @@ function MainpageMap() {
               
         </a>
          <Offcanvas show={show} onHide={handleClose} placement={'bottom'} className="offcanvas"  >
-            <button onClick={handleClick}>More</button>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-        </Offcanvas.Header>
         <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc....
+          <div className='modalHead'><div className='modalTitle'>Miami Community Garden ·</div><div className='modalDistance'> 0.2 mi</div></div>
+          <div className='stats'><div className='open-closed'>Open</div><div className='times'><span>·</span>8am - 7pm<span>·</span></div><div className='star'></div><div className='rating'>4.5 (7)</div></div>
+        
+        
         </Offcanvas.Body>
       </Offcanvas>
         </>

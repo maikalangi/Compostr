@@ -26,14 +26,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-
-
-          <Route path="/info" exact element={<Info/>}>
-          </Route>
-
+          <Route path="/info" exact element={<Info/>}/>
           <Route path="/" exact element={<NewLogin setNavBool={setNavBool}/>}/>
           <Route path="/contribute" exact element={<Calculator/>}/>          
-
           <Route path='/map' element={<Map />}/>
           <Route path='/main' element={<MainpageMap placement={"bottom"}/>}/>
 

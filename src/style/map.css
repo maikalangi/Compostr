@@ -1,0 +1,19 @@
+.offcanvas{
+    width: 414px;
+    border-radius: 20px;
+}
+.modalHead{
+    display: flex;
+}
+.modalTitle{
+    font-weight: bold;
+    margin-left:5px;
+    margin-right: 5px;
+}
+.stats{
+    display: flex;
+}
+.open-closed{
+    color:#44692B;
+    font-weight: 600;
+}
