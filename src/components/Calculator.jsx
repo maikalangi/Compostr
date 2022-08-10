@@ -1,5 +1,6 @@
 import React,{ useState } from "react";
 import "../style/calc.css"
+import bg from "../img/Backgroundbackground.png"
 import Progress from "./Progress";
 
 const Calculator = () =>{
@@ -75,12 +76,18 @@ const Calculator = () =>{
     }
 
     const goRewards = () =>{
+
+
         let rew = sCount+mCount*2+lCount*3
         let r = []
         for(let i = 0; i< rew;i++){
             r.push(1)
         }
         setGrats("../public/worm.png")
+        let earl = "/public/background.png"
+        let bgs = "url('"+ earl +"')";
+        document.body.style.backgroundImage = `url('${bg}')`;
+
         setReward(r)
         rew > 0 ? setFinish(!finishComp) : alert("You have nothing to compost!")
     }
@@ -89,7 +96,6 @@ const Calculator = () =>{
     <div className="Calculator">
         
         {finishComp ? 
-        
         
         <div className="rewardPage">
 
@@ -101,7 +107,7 @@ const Calculator = () =>{
             <div className="badgeCount">
             <div className="bbb" key="badge">
             {reward.map((x,i)=>{return(
-                <div key={i} className="badge"></div>
+                <div key={i} className="badge"> </div>
             )})}
             {reward.length>1 ? (<div className="bCount">{`${reward.length}`} Points!</div>): (<div className="bCount">{`${reward.length}`} Badge</div>)}
 
@@ -118,8 +124,10 @@ const Calculator = () =>{
         
         
         <div className="CompostCalc">
-            <div className="CompPic">
-                this is a picture
+            <div>Take a picture of your compost
+            </div>
+            <div className="CompPic"> 
+                <div className="camera"> </div>
             </div>
             <div className="CompAmount">
                 <div className="compSmall"><div className="compText">Small bag (less than 3 gallons)</div><div className="counter">
