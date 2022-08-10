@@ -2,16 +2,25 @@ div{
   font-family: 'Inter', sans-serif;
 
 }
+body{
+    background-image: none;
+    padding-top: 0px;
+}
+
 .CompPic{
-    margin: 37px 39px 30px 39px;
-    background-color: #d9d9d9;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color:rgba(243, 246, 235, 1);
+    border: #44692B 1px solid;
     border-radius: 8px;
-    height: 334px;
+    height: 247px;
+    width: 380px;
+    display: inline-block;
 }
 .minus{
     background-color: #44692B;
-    padding-top: 2px;
-    height: 30px;
+    padding-top: 0px;
+    height: 32px;
     width:32px;
     display: inline-block;
     border-radius: 5px;
@@ -22,8 +31,8 @@ div{
 }
 .plus{
     background-color: #44692B;
-    padding-top: 2px;
-    height: 30px;
+    padding-top: 0px;
+    height: 32px;
     width:32px;
     display: inline-block;
     border-radius: 5px;
@@ -51,7 +60,7 @@ div{
     margin:auto;
     margin-bottom: 14px;
     display: flex;
-    width: 334px;
+    width: 382px;
     border-radius: 8px;
     height: 77px;
     border: 1px solid #efefef;
@@ -67,8 +76,8 @@ div{
     margin-bottom: 14px;
     margin-top: 7px;
     display: flex;
-    width: 334px;
     height: 77px;
+    width: 382px;
     border-radius: 8px;
     border: 1px solid #efefef;
     box-shadow: 0px 3px 5px 2px #efefef;
@@ -81,8 +90,8 @@ div{
     margin-top: 7px;
     margin-bottom: 7px;
     display: flex;
-    width: 334px;
     height: 77px;
+    width: 382px;
     border-radius: 8px;
     border: 1px solid #efefef;
     box-shadow: 0px 3px 5px 2px #efefef;
@@ -102,6 +111,12 @@ div{
     margin: 37px 39px 10px 39px;
     padding: 10px 0px 10px 0px;
     color: #FFFFFF;
+}
+.rewardPageBG{
+    height: 100%;
+    margin-top: 0px;
+  background-image: url("../img/Backgroundbackground.png");
+
 }
 .rewardPage{
     margin: 0 auto;
@@ -130,6 +145,8 @@ div{
     
 }
 .badge{
+    display: inline-block;
+
     background-image: url("../img/badge.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,4 +202,36 @@ div{
     float: right;
     margin-right: 35px;
     font-weight: bolder;
+}
+.camera{
+    margin:0 auto;
+    margin-top:65px;
+    height: 98px;
+    width: 98px;
+    border: #44692B 1px solid;
+    border-radius: 100px;
+    background-image: url("../img/camera.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+
+}
+.takePic{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 16px;
+    text-align: left;
+    float: left;
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+.logPost{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    font-weight: bolder;
+    margin-left:16px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
