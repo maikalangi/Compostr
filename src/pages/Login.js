@@ -4,6 +4,7 @@ import apple from '../img/apple.png';
 import facebook from '../img/facebook.png';
 import twitter from '../img/twitter.png';
 import google from '../img/google.png';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Login = () =>{
 
@@ -15,15 +16,17 @@ const Login = () =>{
         <br />
         Making your city greener one bag at a time
         <br />
-        <input type="email" placeholder="example@gmail.com"/>
-        <br />
-        <input type="text" />
-        <br />
-        Forgot Password?
-        <br />
-        <button>Log In</button>
-        <br />
-        <button>Sign Up</button>
+        <form >
+            <input type="email" placeholder="example@gmail.com"/>
+            <br />
+            <input type="text" />
+            <br />
+            Forgot Password?
+            <br />
+            <button type='submit'>Log In</button>
+            <br />
+            <button>Sign Up</button>
+        </form>
         <br />
         or
         <br />
