@@ -4,6 +4,29 @@
     border-radius: 20px;
     padding: 0px;
 }
+.searchBar{
+    display: flex;
+    position:absolute;
+    margin-top:15px;
+    margin-left:14px;
+}
+.searchinput{
+    height: 46px;
+    width:317px;
+    border-radius: 10px;
+    border: 1px solid #C7C7C7;
+    text-align: center;
+}
+.magnify{
+    background-image: url('../img/magnify.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 56px;
+    background-color: #44692B;
+    border-radius: 10px;
+    margin-left:14px;
+}
 .modalHead{
     display: flex;
 }

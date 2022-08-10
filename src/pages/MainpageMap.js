@@ -27,6 +27,7 @@ function MainpageMap({setNavBool}) {
     
   return (
     <div className='divImage'>
+      <div className='searchBar'><input className='searchinput'></input><div className='magnify'></div></div>
     <img className="image" src={Map}/>
         <>
         <a class="btn" onClick={handleShow}  >
