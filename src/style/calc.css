@@ -6,6 +6,10 @@ body{
     background-image: none;
     padding-top: 0px;
 }
+.CompostCalc{
+    background-color: #FFFFFF;
+    height:896px;
+}
 
 .CompPic{
     margin: 0 auto;
