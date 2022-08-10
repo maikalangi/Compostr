@@ -39,9 +39,7 @@ const Calculator = () =>{
     }
     
     const setNumber = (targ,value)=>{
-
-        let vInt = parseInt(value)
-     
+        let vInt = parseInt(value)   
         // let nCounts = counts
         if(targ.name==="smallcount"){
             if(isNaN(value)|| value === ""){
@@ -71,8 +69,6 @@ const Calculator = () =>{
         if (reward.length > 4){
             badgeW.width = '10%'
         }
-
-
     }
 
     const goRewards = () =>{
