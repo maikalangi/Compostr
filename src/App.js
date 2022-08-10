@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Map from './pages/Map';
 import './App.css';
 import MainpageMap from './pages/MainpageMap';
@@ -9,6 +9,7 @@ import BottomNav from './components/BottomNav';
 import Signup from './pages/Signup';
 
 function App() {
+  const user = localStorage.getItem("token")
   return (
     <div className="App">
       <BrowserRouter>
@@ -17,7 +18,8 @@ function App() {
           <Route path="/signup" exact element={<Signup/>}/>
           <Route path="/contribute" exact element={<Calculator/>}/>
           <Route path='/map' element={<Map />}/>
-           <Route path='/main' element={<MainpageMap />}/>
+           {user && <Route path='/main' exact element={<MainpageMap />}/>}
+           <Route path="/main" exact element={<Navigate replace to="/"/>}/>
         </Routes>
       <BottomNav/>
       </BrowserRouter>

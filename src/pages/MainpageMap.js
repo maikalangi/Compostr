@@ -15,6 +15,10 @@ function MainpageMap() {
         event.target.parentNode.style.height='855px'
     }
 
+    const handleLogout = ()=> {
+        localStorage.removeItem("token")
+        window.location.reload()
+    }
     
   return (
     <div className='divImage'>
@@ -46,7 +50,7 @@ function MainpageMap() {
         </a>
         <BsCircleFill className="circle" size={20} color='blue' />
     <div>MainpageMap</div>
-
+        <button onClick={handleLogout}>Log Out</button>
     </div>
   )
 }
