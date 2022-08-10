@@ -124,13 +124,14 @@ const Calculator = () =>{
         
         
         <div className="CompostCalc">
-            <div>Take a picture of your compost
+            <div className="takePic">Take a picture of your compost
             </div>
             <div className="CompPic"> 
                 <div className="camera"> </div>
             </div>
             <div className="CompAmount">
-                <div className="compSmall"><div className="compText">Small bag (less than 3 gallons)</div><div className="counter">
+                <div className="logPost">Log compost amount</div>
+                <div className="compSmall"><div className="compText">Small bag (1/2 grocery bag)</div><div className="counter">
                 <div className="minus"onClick={()=>incCount(-1,"small")}>-</div>
                 <input className="counterCount"
                 type="text"
@@ -138,14 +139,14 @@ const Calculator = () =>{
                 placeholder="0"
                 value={sCount}
                 onChange={(e)=>setNumber(e.target,e.target.value)}/><div className="plus" onClick={()=>incCount(1,"small")}>+</div></div></div>
-                <div className="compMedium"><div className="compText">Full bag (3 gallons or more)</div><div className="counter"><div className="minus"onClick={()=>incCount(-1,"med")}>-</div>
+                <div className="compMedium"><div className="compText">Medium bag (grocery bag)</div><div className="counter"><div className="minus"onClick={()=>incCount(-1,"med")}>-</div>
                 <input className="counterCount"
                 type="text"
                 name="medcount"
                 placeholder="0"
                 value={mCount}
                 onChange={(e)=>setNumber(e.target,e.target.value)}/><div className="plus" onClick={()=>incCount(1,"med")}>+</div></div></div>
-                <div className="compLarge"><div className="compText">Large Bag</div><div className="counter"><div className="minus"onClick={()=>incCount(-1,"large")}>-</div>
+                <div className="compLarge"><div className="compText">Large Bag (trash bag)</div><div className="counter"><div className="minus"onClick={()=>incCount(-1,"large")}>-</div>
                 <input className="counterCount"
                 type="text"
                 name="largecount"

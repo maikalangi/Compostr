@@ -8,10 +8,14 @@ body{
 }
 
 .CompPic{
-    margin: 0px 39px 30px 39px;
+    margin: 0 auto;
+    margin-bottom: 30px;
     background-color:rgba(243, 246, 235, 1);
+    border: #44692B 1px solid;
     border-radius: 8px;
-    height: 334px;
+    height: 247px;
+    width: 380px;
+    display: inline-block;
 }
 .minus{
     background-color: #44692B;
@@ -56,7 +60,7 @@ body{
     margin:auto;
     margin-bottom: 14px;
     display: flex;
-    width: 334px;
+    width: 382px;
     border-radius: 8px;
     height: 77px;
     border: 1px solid #efefef;
@@ -72,8 +76,8 @@ body{
     margin-bottom: 14px;
     margin-top: 7px;
     display: flex;
-    width: 334px;
     height: 77px;
+    width: 382px;
     border-radius: 8px;
     border: 1px solid #efefef;
     box-shadow: 0px 3px 5px 2px #efefef;
@@ -86,8 +90,8 @@ body{
     margin-top: 7px;
     margin-bottom: 7px;
     display: flex;
-    width: 334px;
     height: 77px;
+    width: 382px;
     border-radius: 8px;
     border: 1px solid #efefef;
     box-shadow: 0px 3px 5px 2px #efefef;
@@ -201,8 +205,7 @@ body{
 }
 .camera{
     margin:0 auto;
-    margin-top: 40px;
-    padding-bottom: 30px;
+    margin-top:65px;
     height: 98px;
     width: 98px;
     border: #44692B 1px solid;
@@ -210,5 +213,25 @@ body{
     background-image: url("../img/camera.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #FFFFFF;
 
+}
+.takePic{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 16px;
+    text-align: left;
+    float: left;
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+.logPost{
+    display: inline-block;
+    float: left;
+    text-align: left;
+    font-weight: bolder;
+    margin-left:16px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
