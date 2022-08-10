@@ -78,4 +78,5 @@ body {
     display: inline-block;
     margin-bottom: 15px;
     width:271px;
+    cursor:pointer;
 }
