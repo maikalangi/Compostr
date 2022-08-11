@@ -34,7 +34,7 @@
 * Connect social media links.
 * Add a photo upload feauture.
 * Make a web version of the application.
-* Deploy backend
+* Deploy backend so that authntication shows using deployed link.
 
 ## <a name="planning"></a>Planning
 ![User Persona](https://user-images.githubusercontent.com/103911002/184027012-0a3c852e-a8e4-4002-9699-4097bbe96573.png)
