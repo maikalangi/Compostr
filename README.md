@@ -9,9 +9,10 @@
 * [Technologies Used](#technologiesused)
 * [Deployed App](#deployment)
 * [Features](#features)
+* [Prototype](#prototype)
 * [Project Next Steps](#nextsteps)
-* [Planning](#[planning])
-* [The Team](#[theteam])
+* [Planning](#planning)
+* [The Team](#theteam)
 
 ## <a name="technologiesused"></a>Technologies Used
 * HTML5
@@ -19,6 +20,12 @@
 * Javascript
 * MongoDB
 * React
+* Figma
+* Google Docs
+
+## <a name="prototype"></a>Prototype
+[Prototype](https://www.figma.com/proto/xhk8C1ERKQRZBI2Ogk04yz/Composter?node-id=2%3A4&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A4)
+
 
 ## <a name="features"></a>Features
 * User Authentication
@@ -29,7 +36,7 @@
 ## <a name="deployment"></a>Deployed Link
 * Visit the mobile version of our deployed app here (viewable on iPhone XR): [Compostr](https://master--tubular-starlight-f7d150.netlify.app/)
 
-## <a name="nextsteps"></a>Project Next Steps
+## <a name="nextsteps"></a>Next Steps
 * Connect google map API so that users can find compost sites in any location.  
 * Connect social media links.
 * Add a photo upload feauture.
