@@ -68,11 +68,12 @@ const NewLogin = ({setNavBool}) =>{
                 <div className="emailBox"><div className="emailpng"/><input className="email" type="email" name="email" onChange={handleChange} value={data.email} required placeholder="Email ID"></input></div>
                 <div className="passBox"><div className="passpng"/><input className="pass" type="password" name="password" onChange={handleChange} value={data.password} required placeholder="Password"></input></div>
                 <div className="fPass">Forgot Password?</div>
-                <div className="logButt" onClick={handleSubmitLogIn}>Log in</div>
+                {/* <div className="logButt" onClick={handleSubmitLogIn}>Log in</div> */}
+                <div className="logButt" onClick={()=>navigate('/main')}>Log in</div>
                 <div className="signButt" onClick={handleSubmitSignUp}>Sign up</div>
                 </form>
                 <div className="orLine">     OR</div>
-                <div className="socialSign" onClick={()=>navigate('/main')}>
+                <div className="socialSign" /*onClick={()=>navigate('/main')}*/>
                     <div className="fb"/>
                     <div className="tw"/>
                     <div className="ig"/>
