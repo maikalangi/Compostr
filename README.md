@@ -1,5 +1,5 @@
 ## Compostr 
-#### Compostr is a full stack MERN web application that was created because of the concern about our planet. 
+#### Web application addressing global climate change through composting. It provides introductory information on composting as well as a map for local compost sites and incentivizes individual composting through rewards.
 
 ![home](https://user-images.githubusercontent.com/103911002/184027454-35527488-b1bd-4f5f-a6af-ccb8c79759ba.png)
 
